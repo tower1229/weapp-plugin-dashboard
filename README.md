@@ -4,7 +4,7 @@
 
 > 微信小程序仪表盘组件
 
-![](https://refined-x.com/asset/a/weapp-plugin-dashboard.png)
+![](https://refined-x.com/asset/a/weapp-plugin-dashboard.gif)
 
 
 ## 安装与使用
