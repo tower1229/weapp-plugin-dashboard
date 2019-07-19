@@ -9,16 +9,22 @@
 
 ## 安装与使用
 
-1. 在小程序根目录（project.config.json中`miniprogramRoot`配置的目录）中执行`npm init`
-2. 执行`npm i weapp-plugin-dashboard -S --production`
-3. 微信开发者工具中打开`使用npm模块`配置，并执行“工具-构建npm”
-4. 在小程序页面json文件中配置
+1. 在小程序根目录（project.config.json中`miniprogramRoot`配置的目录）中依次执行
+```
+npm init
+npm i weapp-plugin-dashboard -S --production
+```
+2. 微信开发者工具，项目配置开启**使用npm模块**，并执行“工具-构建npm”
+3. 在小程序页面json文件中配置
 ```
 "usingComponents": {
     "weapp-plugin-dashboard": "weapp-plugin-dashboard"
 }
 ```
-5. 在小程序页面中用`<weapp-plugin-dashboard />`标签引入组件
+4. 在小程序页面中使用组件
+```
+<weapp-plugin-dashboard />
+```
 
 ## 配置参数
 
